@@ -1,0 +1,26 @@
+{
+  "name": "demo_travis",
+  "version": "1.0.0",
+  "description": "Demo using Travis CI and Unit tests with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongtanhuy/demo-travis.git"
+  },
+  "keywords": [
+    "travis-ci",
+    "unittests"
+  ],
+  "author": "Julian Dong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongtanhuy/demo-travis/issues"
+  },
+  "homepage": "https://github.com/dongtanhuy/demo-travis#readme",
+  "dependencies": {
+    "jshint": "^2.9.4"
+  }
+}
