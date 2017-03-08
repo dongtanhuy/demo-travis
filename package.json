@@ -4,7 +4,7 @@
   "description": "Demo using Travis CI and Unit tests with NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "jshint index.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/dongtanhuy/demo-travis#readme",
   "dependencies": {
-    "jshint": "^2.9.4"
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0"
   }
 }
